@@ -4994,10 +4994,10 @@ jquery-detached@^2.1.4-v2:
   dependencies:
     window-handle "^1.0.0"
 
-jquery@2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.1.4.tgz#228bde698a0c61431dc2630a6a154f15890d2317"
-  integrity sha1-IoveaYoMYUMdwmMKahVPFYkNIxc=
+jquery@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
+  integrity sha1-LInWiJterFIqfuoywUUhVZxsvwI=
 
 jqueryui-detached-1.11@^1.11.4-v4:
   version "1.11.4-v9"
