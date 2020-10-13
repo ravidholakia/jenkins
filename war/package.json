@@ -17,7 +17,9 @@
     "test": "jest --config=jest.config.json",
     "lint:js": "eslint . --ext js",
     "lint:css": "stylelint src/main/less --syntax less",
-    "lint": "yarn lint:js && yarn lint:css"
+    "lint": "yarn lint:js && yarn lint:css",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
@@ -49,14 +51,16 @@
   "dependencies": {
     "@babel/preset-env": "^7.7.4",
     "babel-loader": "^8.0.6",
-    "bootstrap": "3.3.5",
+    "bootstrap": "3.4.1",
     "jenkins-js-modules": "^1.5.0",
-    "jquery": "2.1.4",
+    "jquery": "3.5.0",
     "stylelint": "^13.0.0",
-    "window-handle": "^1.0.0"
+    "window-handle": "^1.0.0",
+    "snyk": "^1.413.3"
   },
   "browserslist": [
     "defaults",
     "IE 11"
-  ]
+  ],
+  "snyk": true
 }
